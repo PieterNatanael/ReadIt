@@ -19,6 +19,7 @@
 		2120871F2AFA098900164A82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		212087212AFA098A00164A82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212087242AFA098A00164A82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2120872B2AFA0A4300164A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		2120871C2AFA098900164A82 /* ReadIt */ = {
 			isa = PBXGroup;
 			children = (
+				2120872B2AFA0A4300164A82 /* Info.plist */,
 				2120871D2AFA098900164A82 /* ReadItApp.swift */,
 				2120871F2AFA098900164A82 /* ContentView.swift */,
 				212087212AFA098A00164A82 /* Assets.xcassets */,
@@ -275,6 +277,8 @@
 				DEVELOPMENT_TEAM = L295MT4VTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadIt/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"ReadIt app requires access to speech synthesis for reading text aloud.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +308,8 @@
 				DEVELOPMENT_TEAM = L295MT4VTH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReadIt/Info.plist;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "\"ReadIt app requires access to speech synthesis for reading text aloud.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
